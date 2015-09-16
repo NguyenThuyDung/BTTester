@@ -1,0 +1,53 @@
+import java.util.Scanner;
+import java.lang.Math;
+public class GiaiPT{
+	private int a;
+      	private int b;
+      	private int c;
+      	public GiaiPT() {
+    		this.a = a;
+    	  	this.b = b;
+    	  	this.c = c;
+      	}
+      	public static int GiaiPT(int a, int b, int c){
+    		double delta;
+    	  	int kq = 0;
+    	  	if( a==0 ){
+    		  	if( b==0 ){
+    			  	if( c==0 )
+    					kq = 1;
+    			  	else
+    				  	kq = 2;
+    			}else
+    				kq = 3;
+    	  	}else{
+    		  	delta= (b*b)-(4*a*c);
+    		  	if( delta<0 )
+    			  	kq = 2;
+    		  	if( delta==0 )
+    			  	kq = 3;
+    		  	if( delta>0 )
+    			  	kq = 4;
+    	  	}
+    	  	return kq;
+      	}
+      	public static void main(String[] args){
+    	  	int a,b,c;
+    	  	Scanner input = new Scanner(System.in);
+    	  	System.out.print("Nhap a = ");
+    	  	a = input.nextInt();
+    	  	System.out.print("Nhap b = ");
+    	  	b = input.nextInt();
+    	  	System.out.print("Nhap c = ");
+    	  	c = input.nextInt();
+    	  	int kq = GiaiPT(a,b,c);
+    	  	if( kq==1 )
+    		  	System.out.println("Phuong trinh vo so nghiem ");
+    	  	else if( kq==2)
+    		  	System.out.println("Phuong trinh vo nghiem ");
+    	  	else if( kq==3 )
+    		  	System.out.println("Phuong trinh co nghiem duy nhat ");
+    	  	else
+    		  	System.out.println("Phuong trinh co 2 nghiem " );
+	}
+}
