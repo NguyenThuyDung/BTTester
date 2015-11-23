@@ -1,0 +1,14 @@
+﻿DANH SÁCH CHECKLIST KIỂM TRA CÁC VẤN ĐỀ VỀ GIAO DIỆN TRANG WEB
+
+1. Kiểm tra màu nền chung của toàn bộ màn hình có đúng theo yêu cầu hay hợp lý không?
+2. Kiểm tra màu chữ, font, font size của tất cả các textbox có đúng theo yêu cầu không, có hợp lý, đồng nhất không?
+3. Kiểm tra background (màu nền) của tất cả các textbox có đúng theo yêu cầu không, có hợp lý không?
+4. Kiểm tra màu chữ, font, font size của tất cả các label, text box có đúng theo yêu cầu không, có hợp lý và thống nhất không?
+5. Kiểm tra background (màu nền) của tất cả các label có đúng theo yêu cầu không, có hợp lý không?
+6. Kiểm tra tất cả các thành phần trên màn hình có được canh đều hay không? (Label, textbox, checkbox, list…)
+7. Kiểm tra mặc định tất cả các ký tự chữ đều canh trái. Ngọai trừ trường hợp có yêu cầu cụ thể
+8. Kiểm tra mặc định tất cả các số đều canh phải. Ngọai trừ trường hợp có yêu cầu cụ thể.
+9. Kiểm tra tất cả các msg thông báo trên màn hình có được viết đúng chính tả hay không?
+10. Kiểm tra tất cả các giá trị input chữ hoa hay chữ thường có được hiển thị đúng hay không?
+11. Kiểm tra tất cả các textbox có yêu cầu set border hay không?
+12. Kiểm tra độ phân giải của màn hình có được set theo đúng chuẩn yêu cầu hay không? VD độ phân giải tối thiểu là 800x600
